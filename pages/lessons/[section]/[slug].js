@@ -46,7 +46,6 @@ export default function LessonSlug({ post }) {
         <meta name="twitter:card" content="summary_large_image"></meta>
       </Head>
       <div className="lesson-container">
-        {post.prevSlug}
         <div className="lesson">
           <div
             className="lesson-content"
