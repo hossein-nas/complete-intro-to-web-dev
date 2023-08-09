@@ -46,6 +46,7 @@ export default function LessonSlug({ post }) {
         <meta name="twitter:card" content="summary_large_image"></meta>
       </Head>
       <div className="lesson-container">
+        {post.prevSlug}
         <div className="lesson">
           <div
             className="lesson-content"
@@ -53,13 +54,13 @@ export default function LessonSlug({ post }) {
           />
           <div className="lesson-links">
             {post.prevSlug ? (
-              <Link href={post.prevSlug} className="prev">
-                ← Previous
+              <Link href={post.prevSlug}>
+                <a className="prev">← Previous</a>
               </Link>
             ) : null}
             {post.nextSlug ? (
-              <Link href={post.nextSlug} className="next">
-                Next →
+              <Link href={post.nextSlug}>
+                <a className="next">Next →</a>
               </Link>
             ) : null}
           </div>
