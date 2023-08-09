@@ -79,7 +79,7 @@ Whoa, okay. You'll learn how to read and write complete statements for sure, but
 [github]: https://github.com/hossein-nas
 [linkedin]: https://www.linkedin.com/in/hossein-nasiri-sovari/
 [gh]: https://github.com/hossein-nas/complete-intro-to-web-dev
-[site]: https://complete-intro-to-web-dev.vercel.app/complete-intro-to-web-dev-v3
+[site]: https://complete-intro-to-web-dev.vercel.app/complete-intro-to-web-dev
 [internet-fundamentals]: https://internetfundamentals.com/
 [tapsi]: https://tapsi.cab
 [yektanet]: https://yektanet.com

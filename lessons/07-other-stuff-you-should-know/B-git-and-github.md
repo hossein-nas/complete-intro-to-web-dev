@@ -9,7 +9,7 @@ Imagine a company like Facebook with thousands of engineers. They all work on th
 
 Git itself is a command-line tool and it's worth your time to learn it. [Nina Zakharenko][nina] has a great course on it for Frontend Masters. But we're going to do a fast way. Make a new folder on your desktop and open it with Visual Studio Code. On the left bar, there's a logo that should look something like this:
 
-![git logo in VS Code](/complete-intro-to-web-dev-v3/images/git.png)
+![git logo in VS Code](/complete-intro-to-web-dev/images/git.png)
 
 Click on that. Click initialize repo.
 
@@ -23,7 +23,7 @@ Click the `+` next you the file. This file is now **staged**. This means it hasn
 
 Okay, so now you've staged multiple things and you want to save it. We're going to commit your staged changes. When I saying "save" before I really meant "commit" as that's the word Git uses. A commit creates a new entry in your repo with all your new changes. Write a little message about you did in the message bar (like "added my name text file", enough to remind yourself later what it was you did) and click the ✓ at the top of the Git panel in VS Code.
 
-![git logo in VS Code](/complete-intro-to-web-dev-v3/images/commit.png)
+![git logo in VS Code](/complete-intro-to-web-dev/images/commit.png)
 
 That's the whole flow: make your changes and then commit them. Different people have different thoughts on when, how, and how often to commit but I'll let you decide that yourself. It's a tool for you to learn and get opinions for yourself.
 
@@ -35,11 +35,11 @@ If you don't have an account [click here to sign up][github]. This is a public p
 
 Once you've signed up, click the plus in the top right and create a new repo.
 
-![git logo in VS Code](/complete-intro-to-web-dev-v3/images/plus-repo.png)
+![git logo in VS Code](/complete-intro-to-web-dev/images/plus-repo.png)
 
 Call it my-first-repo or whatever you want to. You can ignore the other options. Nice. From here, grab the URL on the page. It'll be something like `https://github.com/<your username>/my-first-repo.git`. Copy that. Add it to VS Code via the submenu.
 
-![git logo in VS Code](/complete-intro-to-web-dev-v3/images/remote.png)
+![git logo in VS Code](/complete-intro-to-web-dev/images/remote.png)
 
 Call the remote origin. It's a standard practice to call the copy of the repo the origin that you're working off of. 99.9999% of the time you'll only need the one remote. Because Git is distributed, in theory you could all have your own copy of Git and push to each other's repos but no one works that way. So yeah, just call it origin.
 
@@ -53,7 +53,7 @@ Now check GitHub and see it's up there! That's it! That's how you share code!
 
 Now go create a new file or modify your existing file. Stage the changes. Commit. And click sync changes to push to GitHub. That's it! Congrats! That's most of what's useful about Git.
 
-![git logo in VS Code](/complete-intro-to-web-dev-v3/images/error.png)
+![git logo in VS Code](/complete-intro-to-web-dev/images/error.png)
 
 You may see an error like the above. In which case just copy and paste that first line into your command line. It needs a strategy for how to merge when there are conflicts.
 

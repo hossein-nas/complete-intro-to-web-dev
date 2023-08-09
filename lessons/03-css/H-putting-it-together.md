@@ -6,7 +6,7 @@ So far I've shown you a lot of various techniques but we haven't really put it t
 
 Here's the design:
 
-![The News Times design](/complete-intro-to-web-dev-v3/images/the_news_times.png)
+![The News Times design](/complete-intro-to-web-dev/images/the_news_times.png)
 
 Here are the product requirements:
 
@@ -17,5 +17,5 @@ Here are the product requirements:
 
 [See my version of the CSS here][my-version] once you've tried yourself. It's okay to struggle. This is putting a lot of hard stuff together. Give it a shot before looking at how I did it. A learning is doing while you struggle.
 
-[html]: /complete-intro-to-web-dev-v3/project-files/news.html
-[my-version]: /complete-intro-to-web-dev-v3/project-files/news.css
+[html]: /complete-intro-to-web-dev/project-files/news.html
+[my-version]: /complete-intro-to-web-dev/project-files/news.css

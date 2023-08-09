@@ -2,7 +2,7 @@
 description: ""
 ---
 
-<iframe style="margin: 10px auto; display: block;" class="doggos" height="595" title="Word Masters" src="/complete-intro-to-web-dev-v3/project-files/word-masters.html" frameborder="no" allowtransparency="true"></iframe>
+<iframe style="margin: 10px auto; display: block;" class="doggos" height="595" title="Word Masters" src="/complete-intro-to-web-dev/project-files/word-masters.html" frameborder="no" allowtransparency="true"></iframe>
 
 You and I are going to recreate the well known word game Wordle. If you're not familiar with Wordle (which we'll call Word Masters), here's how you play
 
@@ -138,7 +138,7 @@ This is a hard one! Give it your best shot and tweet me the results!
 - [Here is my JavaScript][js]
 - [Here is my CSS][css]
 
-[html]: https://btholt.github.io/complete-intro-to-web-dev-v3/project-files/word-masters.html
-[css]: https://btholt.github.io/complete-intro-to-web-dev-v3/project-files/word-masters.css
-[js]: https://btholt.github.io/complete-intro-to-web-dev-v3/project-files/word-masters.js
+[html]: https://btholt.github.io/complete-intro-to-web-dev/project-files/word-masters.html
+[css]: https://btholt.github.io/complete-intro-to-web-dev/project-files/word-masters.css
+[js]: https://btholt.github.io/complete-intro-to-web-dev/project-files/word-masters.js
 [mdn]: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations
