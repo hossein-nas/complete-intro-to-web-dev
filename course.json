@@ -1,17 +1,24 @@
 {
   "author": {
-    "name": "Brian Holt",
-    "company": "Stripe"
+    "name": "Hossein Nasiri",
+    "company": "Tapsi"
   },
-  "title": "Complete Intro to Web Dev v3",
+  "title": "Complete Intro to Web Dev",
   "subtitle": "Learn to write websites with HTML, CSS, and JavaScript",
-  "frontendMastersLink": "https://frontendmasters.com/courses/web-development-v3/",
   "social": {
-    "linkedin": "btholt",
-    "github": "btholt",
-    "twitter": "holtbt"
+    "linkedin": "hossein-nasiri-sovari",
+    "github": "hossein-nas",
+    "twitter": "HosseinNaSiRi96"
   },
   "description": "Learn to be a web developer from nothing from industry veteran Brian Holt",
-  "keywords": ["web dev", "web developer", "css", "javascript", "html", "visual studio code", "learn to code"],
+  "keywords": [
+    "web dev",
+    "web developer",
+    "css",
+    "javascript",
+    "html",
+    "visual studio code",
+    "learn to code"
+  ],
   "productionBaseUrl": "/complete-intro-to-web-dev-v3"
 }
