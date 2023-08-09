@@ -7,6 +7,7 @@ import SupportTweet from "../../../components/support-tweet";
 import { Context } from "../../../context/headerContext";
 
 import * as popmotion from "popmotion";
+import Link from "next/link";
 
 globalThis.popmotion = popmotion;
 
@@ -52,14 +53,14 @@ export default function LessonSlug({ post }) {
           />
           <div className="lesson-links">
             {post.prevSlug ? (
-              <a href={post.prevSlug} className="prev">
+              <Link href={post.prevSlug} className="prev">
                 ← Previous
-              </a>
+              </Link>
             ) : null}
             {post.nextSlug ? (
-              <a href={post.nextSlug} className="next">
+              <Link href={post.nextSlug} className="next">
                 Next →
-              </a>
+              </Link>
             ) : null}
           </div>
         </div>
