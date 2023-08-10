@@ -7,7 +7,7 @@ Hello! And welcome to the first edition of the Complete Intro to Web Dev as taug
 
 ![course logo](./images/course-icon.png)
 
-I wrote this course to teach people to go from not knowing how to code to writing their first web applications. I feel like it's the best time ever to ever to enter the coding world because our tools are far better now than they used to be, meaning you write powerful apps today with just a few tools. I have been coding for decades now and it tooks a lot of code to just eke out a bad little quiz app. By the end of this course you code a clone of Wordle, an app that just sold millions of dollars to the New York Times.
+I wrote this course to teach people to go from not knowing how to code to writing their first web applications. I feel like it's the best time ever to ever to enter the coding world because our tools are far better now than they used to be, meaning you write powerful apps today with just a few tools. I have been coding for decades now and it tooks a lot of code to just eke out a bad little quiz app.
 
 ## Who is this course for / Prerequisites
 
@@ -15,19 +15,19 @@ Hopefully you!
 
 This course is teach you how to code. You do not need to know anything about coding previous to this course.
 
-You should have some familiarity with computers and the Internet. Please head over to [Internet Fundamentals][internet-fundamentals] to make sure you feel comfortable with what Jen talks about in that course. Many of you will not need this if you have been using computers prior to this course.
+You should have some familiarity with computers and the Internet. Please head over to [Internet Fundamentals][internet-fundamentals] to make sure you feel comfortable with the material. Many of you will not need this if you have been using computers prior to this course.
 
-This course will teach you HTML, CSS, and JavaScript. All three are necessary components to start making modern web apps. If you need help in any of these categories, this course should be helpful. If already know how to code (like C++ or Java) and want to veer more into frontend development, this course will also be helpful.
+This course will teach you HTML, CSS, JavaScript and React plus necessary Soft Skills. All are necessary components to start getting hired in high end tech companies. If you need help in any of these categories, this course should be helpful. If already know how to code (like C++ or Java) and want to veer more into frontend development, this course will also be helpful.
 
 ## Set up
 
 This course works and has been tested on both macOS and Windows 10. It also will work very well on Linux (just follow the macOS instructions). You shouldn't need a particularly powerful computer for any part of this course. 8GB of RAM would more than get you through it and you can likely get away with less.
 
-- While you do not have to use [Visual Studio Code][vsc], it is what I will be using and I'll be giving you fun tips for it along the way. I was on the VS Code team so I'm a bit biased!
+- While you do not have to use [Visual Studio Code][vsc], it is what I will be using and I'll be giving you fun tips for it along the way.
 - People often ask me what my coding set up is so let's go over that really quick!
-  - Font: [MonoLisa][monolisa]. Be sure to [enable ligatures][ligatures] in VS Code! If you want ligatures without Dank, check out Microsoft's [Cascadia Code][cascadia].
+  - Font: [IntelOne Mono][intelonemono]. Be sure to [enable ligatures][ligatures] in VS Code! If you want ligatures without Dank, check out Microsoft's [Cascadia Code][cascadia].
   - Theme: I actually just like Dark+, the default VS Code theme. Though I do love [Sarah Drasner's Night Owl][night-owl] too.
-  - Terminal: I just switched back to using macOS's built in terminal. [iTerm2][iterm] is great too. On Windows I love [Windows Terminal][terminal].
+  - Terminal: I just switched back to using macOS's built in terminal. [Hyperjs][hyperjs] is great too. On Windows I love [Windows Terminal][terminal].
   - VS Code Icons: the [vscode-icons][icons] extension.
 
 ## Where to File Issues
@@ -68,18 +68,18 @@ Whoa, okay. You'll learn how to read and write complete statements for sure, but
 
 [twitter]: https://twitter.com/HosseinNaSiRi96
 [vsc]: https://code.visualstudio.com/
-[monolisa]: https://www.monolisa.dev/
+[intelonemono]: https://github.com/intel/intel-one-mono/releases
 [ligatures]: https://worldofzero.com/posts/enable-font-ligatures-vscode/
 [night-owl]: https://marketplace.visualstudio.com/items?itemName=sdras.night-owl
 [cascadia]: https://github.com/microsoft/cascadia-code
 [terminal]: https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab
 [icons]: https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons
-[iterm]: https://iterm2.com/
+[hyperjs]: https://hyper.is/#installation
 [issues]: https://github.com/hossein-nas/complete-intro-to-web-dev/issues
 [github]: https://github.com/hossein-nas
 [linkedin]: https://www.linkedin.com/in/hossein-nasiri-sovari/
 [gh]: https://github.com/hossein-nas/complete-intro-to-web-dev
 [site]: https://complete-intro-to-web-dev.vercel.app/complete-intro-to-web-dev
-[internet-fundamentals]: https://internetfundamentals.com/
+[internet-fundamentals]: https://mega.nz/file/GuI1kZZb#M6b04gvVlUWkdOSJ3sFg_zTZQppk0K0Bb9UyBCrvEL0
 [tapsi]: https://tapsi.cab
 [yektanet]: https://yektanet.com

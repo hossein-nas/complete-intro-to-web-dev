@@ -8,10 +8,12 @@ import { Context } from "../../../context/headerContext";
 
 import * as popmotion from "popmotion";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 globalThis.popmotion = popmotion;
 
 export default function LessonSlug({ post }) {
+  const router = useRouter();
   const courseInfo = getCourseConfig();
   const [_, setHeader] = useContext(Context);
   useEffect(() => {
@@ -22,7 +24,7 @@ export default function LessonSlug({ post }) {
       icon: post.icon,
     });
     return () => setHeader({});
-  }, []);
+  }, [router.asPath]);
 
   const title = post.title
     ? `${post.title} – ${courseInfo.title}`

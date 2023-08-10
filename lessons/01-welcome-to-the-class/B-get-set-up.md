@@ -42,8 +42,6 @@ Something really important is that you choose to learn from good sources. Just l
 
 Frontend Masters also puts out a really awesome book every year called the [Frontend Handbook][handbook]. It's a good way to get an overview of the whole industry.
 
-## Other Recommendations
-
 [code]: https://code.visualstudio.com/
 [ws]: https://www.jetbrains.com/webstorm/
 [nova]: https://nova.app/
@@ -58,4 +56,4 @@ Frontend Masters also puts out a really awesome book every year called the [Fron
 [fem]: https://frontendmasters.com/learn/beginner/
 [css-tricks]: https://css-tricks.com/
 [mdn]: https://developer.mozilla.org/en-US/
-[handbook]: https://frontendmasters.com/guides/front-end-handbook/2019/
+[handbook]: https://frontendmasters.com/guides/

@@ -2,7 +2,7 @@
 description: ""
 ---
 
-Let's talk about what you're going to learn throughout this course: how to write web sites and web apps. In the process we'll teach how to use all the tools necessary to code, to do a light bit of design, and how to continue forward afterwards. After the end of this course, you can reasoably expect to know how to code a website from scratch and be prepared to take more courses on the [Frontend Masters beginner path][fem].
+Let's talk about what you're going to learn throughout this course: how to write web sites and web apps. In the process we'll teach how to use all the tools necessary to code, to do a light bit of design, and how to continue forward afterwards. After the end of this course, you can reasonably expect to know how to code a website from scratch.
 
 ## What is HTML?
 
