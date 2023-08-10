@@ -26,5 +26,11 @@ HTML and CSS describe a non-interactive webpage, like a page in a book. All the 
 
 This is a relatively simplistic take. There's overlap on these things e.g. both CSS and JS can do animations, just differently. But work under these definitions for now and then down the road you can explore the overlap.
 
+## React:
+
+React is a popular JavaScript library for building user interfaces. It simplifies the process of creating complex and interactive web applications by breaking down the UI into reusable components. React follows a component-based architecture, allowing developers to manage different parts of the UI separately and efficiently. It utilizes a virtual DOM to optimize performance, ensuring that only necessary changes are made to the actual DOM, resulting in faster rendering and a smoother user experience. React is widely used in modern web development to create efficient, modular, and scalable frontend applications.
+
+In this bootcamp, these technologies will form the foundation of frontend development, enabling your students to build responsive, interactive, and visually appealing web applications.
+
 [fem]: https://frontendmasters.com/learn/beginner/
 [example]: http://example.com
