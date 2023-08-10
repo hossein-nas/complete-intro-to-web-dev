@@ -233,7 +233,7 @@ header .cta-btn {
   text-decoration: underline;
 }
 
-.lesson a:hover, 
+.lesson a:hover,
 .lesson a:active {
   text-decoration: none;
 }
@@ -258,7 +258,9 @@ header .cta-btn {
   max-width: 300px;
 }
 
-.lesson p, .lesson ul, .lesson ol {
+.lesson p,
+.lesson ul,
+.lesson ol {
   clear: both;
   margin-bottom: 20px;
 }
@@ -376,6 +378,12 @@ blockquote > *:last-child {
 
 .lesson-content {
   line-height: 1.5;
+}
+
+.lesson-content p code {
+  padding: 0.125rem 0.5rem;
+  background-color: #e0e0e0;
+  border-radius: 0.35rem;
 }
 
 .lesson-text {
@@ -523,7 +531,7 @@ ol.sections-name .lesson-details {
   margin-left: 15px;
 }
 
-.lesson li { 
+.lesson li {
   margin-left: 40px;
 }
 
