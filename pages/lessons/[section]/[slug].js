@@ -68,7 +68,6 @@ export default function LessonSlug({ post }) {
         </div>
         <Corner />
       </div>
-      <SupportTweet />
     </>
   );
 }
