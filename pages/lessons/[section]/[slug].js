@@ -17,7 +17,6 @@ export default function LessonSlug({ post }) {
   const courseInfo = getCourseConfig();
   const [_, setHeader] = useContext(Context);
   useEffect(() => {
-    window.klipse.plugin.init(klipse.run.plugin_prod.plugin.settings());
     setHeader({
       section: post.section,
       title: post.title,
@@ -25,6 +24,10 @@ export default function LessonSlug({ post }) {
     });
     return () => setHeader({});
   }, [router.asPath]);
+
+  useEffect(() => {
+    window.klipse.plugin.init(klipse.run.plugin_prod.plugin.settings());
+  }, []);
 
   const title = post.title
     ? `${post.title} – ${courseInfo.title}`
