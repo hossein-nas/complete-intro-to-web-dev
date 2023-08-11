@@ -85,15 +85,13 @@ Just a quick example to show you how to overlay a label over an input's border
 
 This time I'm going to make you write both the HTML and the CSS. Consider this a capstone project for the first two sections!
 
-Design credits for Coffee Masters to [Alex Danielson][alex] (he also did this website!)
-
 This is a hard one! Give it your best shot and tweet me the results!
 
 - [Here is my HTML (you'll need to view source)][html]
 - [Here is my CSS][css]
 
-[html]: https://btholt.github.io/complete-intro-to-web-dev/project-files/coffee/index.html
-[css]: https://btholt.github.io/complete-intro-to-web-dev/project-files/coffee/style.css
+[html]: https://bootcamp.vuecasts.ir/complete-intro-to-web-dev/project-files/coffee/index.html
+[css]: https://bootcamp.vuecasts.ir/complete-intro-to-web-dev/project-files/coffee/style.css
 [border-radius]: https://css-tricks.com/almanac/properties/b/border-radius/
 [box-shadow]: https://css-tricks.com/almanac/properties/b/box-shadow/
 [alex]: https://www.alexdanielson.com/
