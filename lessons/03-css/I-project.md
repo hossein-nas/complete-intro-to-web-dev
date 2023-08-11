@@ -87,8 +87,8 @@ This time I'm going to make you write both the HTML and the CSS. Consider this a
 
 This is a hard one! Give it your best shot and tweet me the results!
 
-- [Here is my HTML (you'll need to view source)][html]
-- [Here is my CSS][css]
+<!-- - [Here is my HTML (you'll need to view source)][html]
+- [Here is my CSS][css] -->
 
 [html]: https://bootcamp.vuecasts.ir/complete-intro-to-web-dev/project-files/coffee/index.html
 [css]: https://bootcamp.vuecasts.ir/complete-intro-to-web-dev/project-files/coffee/style.css
