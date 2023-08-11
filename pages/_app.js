@@ -7,6 +7,7 @@ import "../styles/footer.css";
 import "../styles/courses.css";
 import "klipse/dist/codemirror.css";
 import Layout from "../components/layout";
+import Script from "next/script";
 
 globalThis.klipse_settings = {
   selector_eval_js: ".language-javascript",
@@ -56,6 +57,11 @@ export default function App({ Component, pageProps }) {
           href={`${process.env.BASE_URL}/images/favicon.ico`}
         />
       </Head>
+
+      <Script
+        strategy="beforeInteractive"
+        src="/complete-intro-to-web-dev/scripts/klipse_plugin.min.js"
+      />
       <Component {...pageProps} />
     </Layout>
   );

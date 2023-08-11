@@ -3,7 +3,6 @@ import Head from "next/head";
 import { getLesson, getLessons } from "../../../data/lesson";
 import getCourseConfig from "../../../data/course";
 import Corner from "../../../components/corner";
-import SupportTweet from "../../../components/support-tweet";
 import { Context } from "../../../context/headerContext";
 
 import * as popmotion from "popmotion";
@@ -17,6 +16,7 @@ export default function LessonSlug({ post }) {
   const courseInfo = getCourseConfig();
   const [_, setHeader] = useContext(Context);
   useEffect(() => {
+    window.klipse.plugin.init(klipse.run.plugin_prod.plugin.settings());
     setHeader({
       section: post.section,
       title: post.title,
@@ -24,10 +24,6 @@ export default function LessonSlug({ post }) {
     });
     return () => setHeader({});
   }, [router.asPath]);
-
-  useEffect(() => {
-    window.klipse.plugin.init(klipse.run.plugin_prod.plugin.settings());
-  }, []);
 
   const title = post.title
     ? `${post.title} – ${courseInfo.title}`
